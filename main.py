@@ -6,7 +6,7 @@ window.title("STOPWATCH")
 window.config(padx=50, pady=50, bg="#B1DDC6")    #sets the x and y paddings which will give space between the canvas and the window
 
 timer = None        #the timer is defined as a global variable because it will be used in more than one function
-number = None       #the number is defined as a global variable because it will be used in more than one function
+number = None        #the number is defined as a global variable because it will be used in more than one function
 count_min = 0       #defined as a global variable because it will be used in more than one function
 count_hour = 0      #defined as a global variable because it will be used in more than one function
 is_resume = False   #defined as a global variable because it will be used in more than one function
